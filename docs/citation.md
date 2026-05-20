@@ -12,8 +12,8 @@ This library has been developed by Hakim Benkirane, Associate Professor in bioma
 
 
 <div class="citation-logos">
-  <img src="logos/mics2.png" alt="MICS logo" />
-  <img src="logos/Logo_CentraleSupélec.png" alt="CentraleSupélec logo" />
-  <img src="logos/PRISM.png" alt="PRISM logo" />
-  <img src="logos/Gustave_Roussy.png" alt="Gustave Roussy logo" />
+  <img src="./assets/mics.png" alt="MICS logo" />
+  <img src="./assets/CentraleSupélec.png" alt="CentraleSupélec logo" />
+  <img src="./assets/PRISM.png" alt="PRISM logo" />
+  <img src="./assets/Gustave_Roussy.png" alt="Gustave Roussy logo" />
 </div>

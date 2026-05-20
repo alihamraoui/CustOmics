@@ -26,8 +26,45 @@
 }
 
 .md-typeset .citation-logos img {
-  height: 42px !important;
-  width: auto !important;
-  max-height: 42px !important;
+  height: 42px ;
+  width: auto;
+  max-height: 42px;
   object-fit: contain;
+}
+
+/* Mermaid labels: force readable text color in dark mode */
+[data-md-color-scheme="slate"] .md-typeset .mermaid text,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .nodeLabel,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .edgeLabel {
+  fill: var(--md-default-fg-color) !important;
+  color: var(--md-default-fg-color) !important;
+}
+
+/* Mermaid classDef palette overrides for dark mode */
+[data-md-color-scheme="slate"] .md-typeset .mermaid .omics rect {
+  fill: #5b3aa3 !important;
+  stroke: #c9b6ff !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .mermaid .ae rect {
+  fill: #1f6a3a !important;
+  stroke: #9be6b7 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .mermaid .latent rect {
+  fill: #8f6a00 !important;
+  stroke: #ffd86a !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .mermaid .task rect {
+  fill: #9c4f1e !important;
+  stroke: #ffbf99 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .mermaid .omics .label,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .ae .label,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .latent .label,
+[data-md-color-scheme="slate"] .md-typeset .mermaid .task .label {
+  color: #ffffff !important;
+  fill: #ffffff !important;
 }
