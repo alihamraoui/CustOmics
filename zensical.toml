@@ -64,7 +64,8 @@ inherited_members = true
 show_source = true
 show_root_heading= true
 heading_level= 4
-
+docstring_style = "numpy"
+docstring_section_style = "table"
 
 [project.plugins.mkdocstrings.handlers.python]
 inventories = ["https://docs.python.org/3/objects.inv"]
