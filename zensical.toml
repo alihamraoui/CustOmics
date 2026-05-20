@@ -24,6 +24,8 @@ nav = [
 ]
 
 [project.theme]
+logo = "assets/customics_white.png"
+favicon = "assets/favicon.png"
 variant = "material"
 language = "en"
 
@@ -46,7 +48,7 @@ toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
 
 [[project.theme.palette]]
-scheme = "slate"
+scheme = "default"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
 
@@ -57,9 +59,13 @@ provider = "mike"
 [project.plugins.mkdocstrings]
 enabled = true
 
-[project.plugins.mkdocstrings.handlers.python]
-paths = ["src"]
-
 [project.plugins.mkdocstrings.handlers.python.options]
 inherited_members = true
 show_source = true
+show_root_heading= true
+heading_level= 4
+
+
+[project.plugins.mkdocstrings.handlers.python]
+inventories = ["https://docs.python.org/3/objects.inv"]
+paths = ["src"]
