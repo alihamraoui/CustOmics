@@ -1,9 +1,9 @@
 [project]
-site_name = "CostOmics"
+site_name = "CustOmics"
 repo_name = "HakimBenkirane/CustOmics"
 repo_url = "https://github.com/HakimBenkirane/CustOmics"
 site_url = "https://github.com/HakimBenkirane/CustOmics"
-site_description = "CostOmics Documentation"
+site_description = "CustOmics Documentation"
 site_author = "Hakim Benkirane"
 copyright = "Copyright &copy; 2026 Hakim Benkirane"
 extra_css = ["stylesheets/style.css"]

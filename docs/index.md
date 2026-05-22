@@ -53,7 +53,7 @@ flowchart LR
     class CLS,SURV task;
 
 ```
-At the core of Costomics is a two-phase mixed-integration workflow:
+At the core of Customics is a two-phase mixed-integration workflow:
 
 - **Phase 1** trains per-source autoencoders jointly with the task heads.
 - **Phase 2** additionally trains the central VAE to consolidate the integrated representation.
