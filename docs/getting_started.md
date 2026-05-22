@@ -40,7 +40,7 @@ Choose one of the following, depending on your needs:
     ```
 
 ## Usage
-`CostOmics` provides a simple, scikit-learn–style `API` through the customics package. Below is a complete example showing how to train, evaluate, and interpret a multi-omics model:
+`CustOmics` provides a simple, scikit-learn–style `API` through the customics package. Below is a complete example showing how to train, evaluate, and interpret a multi-omics model:
 
 #### 1. Prepare your data
 `omics_train`: *dict mapping source name → pd.DataFrame (samples × features)*<br>
